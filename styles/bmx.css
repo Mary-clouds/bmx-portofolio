@@ -6,19 +6,41 @@
   --tertiary-font: "Roboto", sans-serif;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
+h1,
+h2,
+h3,
+p {
+  text-align: center;
+  margin: 0;
+}
 h1 {
   font-family: var(--primary-font);
   font-family: var(--tertiary-font);
-  text-align: center;
   padding-top: 40px;
+  font-size: 70px;
 }
-p {
+h2 {
+  font-size: 40px;
+  padding-top: 20px;
+  font-weight: 2px;
+}
+h3 {
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+p,
+h3 {
+  padding: 20px;
   font-family: var(--secondary-font);
   font-family: var(--primary-font);
   font-family: var(--tertiary-font);
-  text-align: center;
 }
-
+a {
+  text-decoration: none;
+}
+.navbar {
+  position: fixed;
+}
 /*
 img {
   display: block;
