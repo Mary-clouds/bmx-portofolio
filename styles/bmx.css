@@ -47,10 +47,6 @@ footer {
 }
 
 @media (max-width: 576px) {
-  .bmx-hop {
-    display: none;
-  }
-
   body {
     max-width: 300px;
   }
@@ -61,6 +57,9 @@ footer {
     display: flex;
     background-color: white;
   }
+  .email-link {
+    font-size: 15px;
+  }
 }
 #tricks-title {
   margin-top: 20px;
@@ -69,6 +68,13 @@ footer {
 }
 #title-about {
   margin-top: 50px;
+}
+#contact {
+  font-size: 45px;
+  padding-top: 40px;
+}
+#sabrina-undertitle {
+  opacity: 0.7;
 }
 .navbar {
   position: fixed;
@@ -103,6 +109,7 @@ video {
 }
 .title {
   text-align: center;
+  opacity: 0.7;
 }
 .email-link {
   display: flex;
@@ -110,6 +117,16 @@ video {
   color: var(--secondary-color);
   font-size: 28px;
 }
+.email-link:hover {
+  text-decoration: underline;
+}
+.article {
+  color: black;
+  font-family: var(--secondary-font);
+  font-family: var(--primary-font);
+  font-family: var(--tertiary-font);
+}
+
 /*
 img {
   display: block;
