@@ -16,7 +16,7 @@ p {
 h1 {
   font-family: var(--primary-font);
   font-family: var(--tertiary-font);
-  padding-top: 40px;
+
   font-size: 70px;
 }
 h2 {
@@ -40,6 +40,27 @@ a {
 }
 .navbar {
   position: fixed;
+}
+.contact-Button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.contact-Button a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-transform: capitalize;
+}
+.contact-link {
+  background: var(--secondary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.bmx-hop {
+  margin-left: 250px;
+  margin-top: 50px;
 }
 /*
 img {
