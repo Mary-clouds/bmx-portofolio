@@ -43,6 +43,7 @@ a {
 footer {
   background-color: var(--tertiary-color);
   border-radius: 5px;
+  margin-top: 30px;
 }
 
 @media (max-width: 576px) {
@@ -66,6 +67,9 @@ footer {
   margin-bottom: 20px;
   padding-bottom: 20px;
 }
+#title-about {
+  margin-top: 50px;
+}
 .navbar {
   position: fixed;
 }
@@ -81,7 +85,7 @@ footer {
   text-transform: capitalize;
 }
 .contact-link,
-.hop-link {
+.tricks-link {
   background: var(--secondary-color);
   box-shadow: var(--box-shadow);
   color: white;
@@ -98,8 +102,6 @@ video {
   margin-top: 30px;
 }
 .title {
-  margin: 0;
-  padding: 0;
   text-align: center;
 }
 /*
