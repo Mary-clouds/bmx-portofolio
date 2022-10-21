@@ -66,18 +66,15 @@ footer {
 }
 
 .bmx-hop {
-  margin-left: 250px;
-  margin-top: 50px;
+  max-width: 100%;
+  height: auto;
 }
-@media (min-width: 768px) {
-  .navbar {
-    display: none;
-  }
-}
+
 @media (max-width: 576px) {
   .bmx-hop {
     display: none;
   }
+
   body {
     max-width: 300px;
   }
@@ -86,7 +83,7 @@ footer {
   }
   footer {
     display: flex;
-    width: auto;
+    background-color: white;
   }
 }
 /*
