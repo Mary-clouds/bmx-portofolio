@@ -69,6 +69,26 @@ footer {
   margin-left: 250px;
   margin-top: 50px;
 }
+@media (min-width: 768px) {
+  .navbar {
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  .bmx-hop {
+    display: none;
+  }
+  body {
+    max-width: 300px;
+  }
+  h1 {
+    padding-top: 50px;
+  }
+  footer {
+    display: flex;
+    width: auto;
+  }
+}
 /*
 img {
   display: block;
