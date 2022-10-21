@@ -45,31 +45,6 @@ footer {
   border-radius: 5px;
 }
 
-.navbar {
-  position: fixed;
-}
-.contact-Button {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 40px;
-}
-.contact-Button a {
-  margin: 20px;
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-transform: capitalize;
-}
-.contact-link {
-  background: var(--secondary-color);
-  box-shadow: var(--box-shadow);
-  color: white;
-}
-
-.bmx-hop {
-  max-width: 100%;
-  height: auto;
-}
-
 @media (max-width: 576px) {
   .bmx-hop {
     display: none;
@@ -85,6 +60,47 @@ footer {
     display: flex;
     background-color: white;
   }
+}
+#tricks-title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+.navbar {
+  position: fixed;
+}
+.contact-Button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.contact-Button a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-transform: capitalize;
+}
+.contact-link,
+.hop-link {
+  background: var(--secondary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.bmx-hop,
+video {
+  max-width: 100%;
+  height: auto;
+}
+.row {
+  display: flex;
+  max-width: 900;
+  margin-top: 30px;
+}
+.title {
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 /*
 img {
