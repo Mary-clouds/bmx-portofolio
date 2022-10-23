@@ -6,9 +6,7 @@
   --tertiary-font: "Roboto", sans-serif;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
-body{
-  max-width: 300px;
-}
+
 h1,
 h2,
 p {
@@ -44,9 +42,7 @@ footer {
 }
 
 @media (max-width: 576px) {
-  body {
-    max-width: 300px;
-  }
+  
   h1 {
     padding-top: 50px;
   }
